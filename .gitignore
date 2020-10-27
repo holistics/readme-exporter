@@ -1,0 +1,5 @@
+.idea
+config.json
+gen_docs_final/*
+gen_docs_raw/*
+gen_images/*
