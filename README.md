@@ -109,6 +109,11 @@ to
 
 Here, `https://mycdn.com/images/` is the prefix.
 
+## Development
+
+Tests are written using Rspec. To run, simply run `rspec`
+
+
 ## TODO
 
 - [x] Export pages into markdown
