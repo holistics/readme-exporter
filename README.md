@@ -111,6 +111,7 @@ Here, `https://mycdn.com/images/` is the prefix.
 
 ## TODO
 
-[x] Export pages into markdown
-[x] Download images from readme.com
-[ ] Command to automatically get list of pages + navigation structure
+- [x] Export pages into markdown
+- [x] Download images from readme.com
+- [ ] Command to automatically get list of pages + navigation structure
+
