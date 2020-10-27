@@ -74,7 +74,7 @@ choose (Jekyll, Middleman, etc) since it's just markdown.
 
 ### How do I get a list of slugs?
 
-You have to collect it manually for now. A future work 
+You have to collect it manually for now (go to your readme.com docs and extract them down). We used a workaround by logging to Google Analytics and extract all the pageviews and get the URL list from there. As readme.com doesn't expose that API, a future work will be to write a function to iterate and build the list manually.
 
 
 ### What is the image_path_prefix for?
