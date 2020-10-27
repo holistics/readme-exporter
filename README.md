@@ -9,7 +9,7 @@ from Readme.com into your computer.
 ## Why this script
 
 * We were using readme.com (previously readme.io) as a documentation site for a while, but outgrew it so we needed to migrate it to another tool.
-* We needed a way to quickly export data from Readme.com. Readme.com exposes an API for us to extract the data. However their exported
+* We needed a way to quickly export data from Readme.com. Readme.com exposes [API interface](https://docs.readme.com/reference/intro-to-the-readme-api) for us to extract the data. However their exported
 Markdown has a lot of custom blocks (e.g `[block:image]`). This script reads the API and convert readme.com custom blocks into
 native markdown tags, and download the images along the way.       
 
