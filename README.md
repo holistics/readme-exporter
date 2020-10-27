@@ -1,7 +1,6 @@
-# Export Readme.com (SaaS tool to create docs site) to Markdown
+# Export Readme.com to Markdown
 
-This little script exports data from a readme.com (readme.io) documentation site into markdown files. It also downloads images
-from Readme.com into your computer.
+Readme.com is a SaaS tool to create docs site. This little script exports data from a readme.com (readme.io) documentation site into markdown files. It also downloads images from Readme.com into your computer.
 
 ![](readme-exporter-f15.gif)
 
