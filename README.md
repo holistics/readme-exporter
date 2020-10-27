@@ -1,4 +1,4 @@
-# Export Script for Readme.com
+# Export Readme.com to Markdown
 
 This little script exports data from a readme.com (readme.io) documentation site into markdown files. It also downloads images
 from Readme.com into your computer.
