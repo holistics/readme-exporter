@@ -22,10 +22,11 @@ class Doc
 end
 
 class ReadmeConverter
-  attr_accessor :readme_apikey
+  attr_accessor :readme_apikey, :image_path_prefix
 
-  def initialize(readme_apikey)
+  def initialize(readme_apikey, image_path_prefix: nil)
     self.readme_apikey = readme_apikey
+    self.image_path_prefix = image_path_prefix
   end
 
 
@@ -68,7 +69,7 @@ id: #{doc.slug}
 
 
       doc.body = InternalHrefReplacer.scan(doc.body)
-      doc.body = ImageBlockReplacer.scan(doc.body)
+      doc.body = ImageBlockReplacer.scan(doc.body, image_path_prefix: self.image_path_prefix)
       doc.body = CodeBlockReplacer.scan(doc.body)
       doc.body = ApiHeaderBlockReplacer.scan(doc.body)
       doc.body = HtmlBlockReplacer.scan(doc.body)
